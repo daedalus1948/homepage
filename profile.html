@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>personal homepage</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <meta name="author" content="name">
+        <meta name="description" content="description here">
+        <meta name="keywords" content="keywords,here">
+        <link rel="shortcut icon" href="/.profile_image.png" type="favicon.ico">
+
+        <style type="text/css">
+
+            * {
+               padding: 0;
+               margin: 0;
+               border: 0;
+               box-sizing: border-box; 
+               font-family: helvetica;
+               font-size: 25px;
+            }
+
+            a {
+                display: block;
+                text-decoration: none;
+            }
+
+            p {
+                margin-bottom: 20px;
+            }
+
+            .main {
+                display: flex;
+                flex-direction: row;
+                
+                height: 100vh;
+            }
+
+            .header {
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                justify-content:center;
+                align-items:flex-end;
+                background-color: #ededed;
+
+            }
+
+            .header-center {
+                display: flex;
+            }
+
+            .header-center-left {
+                display: flex;
+                align-items: center;
+                padding:10px;
+            }
+
+            .header-center-right {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+
+            .profile-image {
+                max-width: 100%;
+                max-height: 35vh;
+            }
+
+
+            .content {
+                flex: 3;
+                overflow: auto;
+                background-color: whitesmoke;
+                color: #003333;
+            }
+
+            .text-container {
+                margin: 10px;
+                padding: 20px;
+            }
+
+            .text-heading {
+                font-weight: bold;
+            }
+
+            .button-link {
+                margin: 10px;
+                margin-left: 0;
+                padding: 10px;
+                text-align: center;
+                color: #003333;
+                font-size: 20px;
+                font-weight: bold;
+            }
+
+            .button-link:hover {
+                background-color: #003333;
+                color:#ededed;
+            }
+
+            @media only screen and (max-width: 480px) {
+                
+                * {
+                    font-size: 15px;
+                }
+                
+                .main {
+                    flex-direction: column;   
+                }
+
+                .header {
+                    flex: none;
+                    align-items: center;
+                }
+
+                .header-center {
+                    flex-direction: column;
+                }
+
+                .header-center-left {
+                    justify-content: center;
+                    padding-bottom: 0;
+                }
+
+                .header-center-right {
+                    flex-direction: row;
+                    margin-left: 10px;
+                    flex-wrap: wrap;
+                }
+
+                .profile-image {
+                    max-height: 10vh;
+                }
+
+                .button-link {
+                    font-size: 12px;
+                }
+            } 
+        </style>
+    </head>
+  
+    <body>
+
+
+        <div class="main">
+            <div class="header">
+                <div class="header-center">
+                    <div class="header-center-left">
+                        <img class="profile-image" src="./cunt.png">
+                    </div>
+                    <div class="header-center-right">
+                        <a class="button-link" href="/.about.html">about</a>
+                        <a class="button-link" href="/.resume.html">resume</a>
+                        <a class="button-link" href="/.projects.html">projects</a>
+                        <a class="button-link" href="/.personal.html">personal</a>
+                        <a class="button-link" href="/.contacts.html">contacts</a>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="content">
+                
+                <div class="text-container">
+                    <div class="text-heading"> 
+                        <p>
+                            ABOUT
+                        </p>
+                    </div>
+                    <div class="text-data">
+                        <p>
+                            lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+                            lorem ipsum lorem ipsumlorem ipsum lorem ipsum
+                            lorem ipsum lorem ipsumlorem ipsum lorem ipsum
+                            lorem ipsum lorem ipsumlorem ipsum lorem ipsum
+                            lorem ipsum lorem ipsumlorem ipsum lorem ipsum
+                        </p>
+                        <p>
+                            lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+                            lorem ipsum lorem ipsumlorem ipsum lorem ipsum
+                            lorem ipsum lorem ipsumlorem ipsum lorem ipsum
+                            lorem ipsum lorem ipsumlorem ipsum lorem ipsum
+                            lorem ipsum lorem ipsumlorem ipsum lorem ipsum
+                        </p>
+                    </div>
+                </div>
+
+                <div class="text-container">
+                        <div class="text-heading"> 
+                            <p>
+                                PROFILE
+                            </p>
+                        </div>
+                        <div class="text-data">
+                            <p>
+                                lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+                                lorem ipsum lorem ipsumlorem ipsum lorem ipsum
+                                lorem ipsum lorem ipsumlorem ipsum lorem ipsum
+                                lorem ipsum lorem ipsumlorem ipsum lorem ipsum
+                                lorem ipsum lorem ipsumlorem ipsum lorem ipsum
+                            </p>
+                            <p>
+                                lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+                                lorem ipsum lorem ipsumlorem ipsum lorem ipsum
+                                lorem ipsum lorem ipsumlorem ipsum lorem ipsum
+                                lorem ipsum lorem ipsumlorem ipsum lorem ipsum
+                                lorem ipsum lorem ipsumlorem ipsum lorem ipsum
+                            </p>
+                        </div>
+                 </div>
+
+                <div class="text-container">
+                        <div class="text-heading"> 
+                            <p>
+                                BORED
+                            </p>
+                        </div>
+                        <div class="text-data">
+                            <p>
+                                lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+                                lorem ipsum lorem ipsumlorem ipsum lorem ipsum
+                                lorem ipsum lorem ipsumlorem ipsum lorem ipsum
+                                lorem ipsum lorem ipsumlorem ipsum lorem ipsum
+                                lorem ipsum lorem ipsumlorem ipsum lorem ipsum
+                            </p>
+                            <p>
+                                lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+                                lorem ipsum lorem ipsumlorem ipsum lorem ipsum
+                                lorem ipsum lorem ipsumlorem ipsum lorem ipsum
+                                lorem ipsum lorem ipsumlorem ipsum lorem ipsum
+                                lorem ipsum lorem ipsumlorem ipsum lorem ipsum
+                            </p>
+                        </div>
+                </div>
+            
+            </div>
+
+        </div>
+    </body>
+</html>
