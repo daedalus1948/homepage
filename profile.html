@@ -7,7 +7,6 @@
         <meta name="author" content="name">
         <meta name="description" content="description here">
         <meta name="keywords" content="keywords,here">
-        <link rel="shortcut icon" href="/.profile_image.png" type="favicon.ico">
 
         <style type="text/css">
 
@@ -17,16 +16,15 @@
                border: 0;
                box-sizing: border-box; 
                font-family: helvetica;
-               font-size: 25px;
+               text-align: justify;
+               text-justify: inter-word;
             }
 
             a {
-                display: block;
                 text-decoration: none;
             }
-
             p {
-                margin-bottom: 20px;
+                margin: 5px;
             }
 
             .main {
@@ -78,10 +76,37 @@
             .text-container {
                 margin: 10px;
                 padding: 20px;
+                display: flex;
+                flex-direction: column;
             }
 
             .text-heading {
                 font-weight: bold;
+                font-size: 30px;
+                margin-bottom: 5px;
+                background-color: #ededed;
+            }
+
+            .text-subheading {
+                font-size: 25px;
+                font-weight: bold;
+                margin-bottom: 5px;
+                margin-left: 10px;
+
+            }
+
+            .text-data {
+                margin-left: 20px;
+                font-size: 20px;
+            }
+
+            .contacts {
+                display: flex;
+            }
+
+            .contacts a {
+                margin-top: 0;
+                margin-bottom: 0;
             }
 
             .button-link {
@@ -142,20 +167,17 @@
   
     <body>
 
-
         <div class="main">
             <div class="header">
                 <div class="header-center">
                     <div class="header-center-left">
-                        <img class="profile-image" src="./cunt.png">
+                        <img class="profile-image" src="./profile_image.svg">
                     </div>
                     <div class="header-center-right">
-                        <a class="button-link" href="/.about.html">about</a>
-                        <a class="button-link" href="/.resume.html">resume</a>
+                        <a class="button-link" href="/.profile.html">profile</a>
                         <a class="button-link" href="/.projects.html">projects</a>
-                        <a class="button-link" href="/.personal.html">personal</a>
                         <a class="button-link" href="/.contacts.html">contacts</a>
-                        
+                        <a class="button-link" href="/.about.html">about</a>
                     </div>
                 </div>
             </div>
@@ -163,75 +185,60 @@
                 
                 <div class="text-container">
                     <div class="text-heading"> 
-                        <p>
-                            ABOUT
-                        </p>
+                        PROFILE
                     </div>
                     <div class="text-data">
                         <p>
-                            lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-                            lorem ipsum lorem ipsumlorem ipsum lorem ipsum
-                            lorem ipsum lorem ipsumlorem ipsum lorem ipsum
-                            lorem ipsum lorem ipsumlorem ipsum lorem ipsum
-                            lorem ipsum lorem ipsumlorem ipsum lorem ipsum
-                        </p>
-                        <p>
-                            lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-                            lorem ipsum lorem ipsumlorem ipsum lorem ipsum
-                            lorem ipsum lorem ipsumlorem ipsum lorem ipsum
-                            lorem ipsum lorem ipsumlorem ipsum lorem ipsum
-                            lorem ipsum lorem ipsumlorem ipsum lorem ipsum
+                            Welcome to my home page. I am a beginner web software developer.  
+                            I have always been interested in how things work together.
+                            In order to build a spectacular thing, one must understand the system.
+                            On frontend, I focus on building single page applications.
+                            On backend, I aim to build simple and scalable web services.
                         </p>
                     </div>
                 </div>
 
-                <div class="text-container">
+                 <div class="text-container">
                         <div class="text-heading"> 
-                            <p>
-                                PROFILE
-                            </p>
+                            TECHNOLOGIES
                         </div>
                         <div class="text-data">
-                            <p>
-                                lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-                                lorem ipsum lorem ipsumlorem ipsum lorem ipsum
-                                lorem ipsum lorem ipsumlorem ipsum lorem ipsum
-                                lorem ipsum lorem ipsumlorem ipsum lorem ipsum
-                                lorem ipsum lorem ipsumlorem ipsum lorem ipsum
-                            </p>
-                            <p>
-                                lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-                                lorem ipsum lorem ipsumlorem ipsum lorem ipsum
-                                lorem ipsum lorem ipsumlorem ipsum lorem ipsum
-                                lorem ipsum lorem ipsumlorem ipsum lorem ipsum
-                                lorem ipsum lorem ipsumlorem ipsum lorem ipsum
-                            </p>
-                        </div>
+                                <p>HTML5, CSS3, GIT, REACT, NODEJS, EXPRESS, DJANGO, SQL</p>
+                            </div>
                  </div>
+
+                 <div class="text-container">
+                        <div class="text-heading">
+                                PROGRAMMING LANGUAGES
+                            </div>
+                            <div class="text-data">
+                                <p>JAVASCRIPT ES6/ES7</p>
+                                <p>PYTHON 3</p>
+                            </div>
+                 </div>
+
+                
+                 <div class="text-container">
+                        <div class="text-heading"> 
+                            CONTACTS
+                        </div>
+                        <div class="text-data contacts">
+                            <a class="button-link" href="mailto:john.doe@gmail.com">email</a>
+                            <a class="button-link" href="github.com/john.doe">github</a>
+                            <a class="button-link" href="linkedin.com/john.doe">linkedin</a>
+                        </div>
+                </div>
 
                 <div class="text-container">
                         <div class="text-heading"> 
-                            <p>
-                                BORED
-                            </p>
+                            ABOUT
                         </div>
                         <div class="text-data">
                             <p>
-                                lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-                                lorem ipsum lorem ipsumlorem ipsum lorem ipsum
-                                lorem ipsum lorem ipsumlorem ipsum lorem ipsum
-                                lorem ipsum lorem ipsumlorem ipsum lorem ipsum
-                                lorem ipsum lorem ipsumlorem ipsum lorem ipsum
-                            </p>
-                            <p>
-                                lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-                                lorem ipsum lorem ipsumlorem ipsum lorem ipsum
-                                lorem ipsum lorem ipsumlorem ipsum lorem ipsum
-                                lorem ipsum lorem ipsumlorem ipsum lorem ipsum
-                                lorem ipsum lorem ipsumlorem ipsum lorem ipsum
+                                This is a personal homepage of John Doe.
                             </p>
                         </div>
-                </div>
+                 </div>
             
             </div>
 
